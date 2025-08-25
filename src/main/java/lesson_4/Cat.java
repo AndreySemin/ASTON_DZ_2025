@@ -1,6 +1,6 @@
 package lesson_4;
 
-public class Cat extends Animals {
+public class Cat extends lesson_4.Animals {
     private boolean isFull = false;
 
     public static int countCat = 0;
@@ -33,7 +33,7 @@ public class Cat extends Animals {
 
 
     }
-    public void eat(Bowl bowl, int amount){
+    public void eat(lesson_4.Bowl bowl, int amount){
         if(bowl.minFood(amount)){
             this.isFull = true;
             System.out.println(name + " Кот сыт");

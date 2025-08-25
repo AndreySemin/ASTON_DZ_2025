@@ -1,6 +1,6 @@
 package lesson_4;
 
-public class Dog extends Animals {
+public class Dog extends lesson_4.Animals {
     public static int countDog = 0;
 
     public static final int  MAX_RUN_DISTANCE = 500;
