@@ -1,4 +1,4 @@
-package lesson_4;
+package Lesson_4;
 
 public class Cat extends Animals {
     private boolean isFull = false;

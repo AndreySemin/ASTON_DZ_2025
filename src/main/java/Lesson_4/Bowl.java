@@ -1,4 +1,4 @@
-package lesson_4;
+package Lesson_4;
 
 public class Bowl {
     private int food;
@@ -8,8 +8,8 @@ public class Bowl {
     }
     public boolean minFood(int amount){
         if(amount <= 0){
-        System.out.println("Количество еды должно быть больше 0 ");
-        return false;
+            System.out.println("Количество еды должно быть больше 0 ");
+            return false;
         }
         if (food >= amount){
             food -= amount;

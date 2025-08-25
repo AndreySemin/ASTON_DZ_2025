@@ -1,4 +1,4 @@
-package lesson_4;
+package Lesson_4;
 
 public abstract class Animals {
     public static int countAnimal = 0;
