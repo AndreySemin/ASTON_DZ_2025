@@ -4,8 +4,8 @@ import lesson_6.Student;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Main {
 
+ Lesson_6
     public static void main(String[] args) {
 
         Student Alex = new Student("Alex", 51, 1, new int[]{3, 2, 4, 5, 3,2});
@@ -34,5 +34,7 @@ public class Main {
     }
 
 }
+=======
+ master
 
 
