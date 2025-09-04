@@ -9,6 +9,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class DelRequestTest {
     @Test
+
     public void testDel(){
         RestAssured.baseURI = "https://postman-echo.com";
         String requestBody = "Added text";

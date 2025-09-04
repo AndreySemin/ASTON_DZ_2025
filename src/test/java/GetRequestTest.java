@@ -14,6 +14,7 @@ public class GetRequestTest {
 
 
     @Test
+
     public void GetRequestTest() {
         given()
                 .queryParam("foo1", "bar1")
