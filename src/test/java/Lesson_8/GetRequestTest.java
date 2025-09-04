@@ -1,3 +1,5 @@
+package Lesson_8;
+
 import io.restassured.RestAssured;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
