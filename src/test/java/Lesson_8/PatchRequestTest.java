@@ -8,6 +8,7 @@ import static org.hamcrest.Matchers.*;
 
 public class PatchRequestTest {
     @Test
+
     public void testPatchRequest(){
         RestAssured.baseURI = "https://postman-echo.com";
         String requestBody = "Added text";

@@ -11,6 +11,7 @@ import static org.hamcrest.Matchers.*;
 public class PostFormDataTest {
 
     @Test
+
     public void testPostFromDate(){
         RestAssured.baseURI = "https://postman-echo.com";
 

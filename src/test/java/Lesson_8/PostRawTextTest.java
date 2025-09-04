@@ -9,6 +9,7 @@ import static org.hamcrest.Matchers.*;
 
 public class PostRawTextTest {
     @Test
+
     public void testPostRawText() {
         RestAssured.baseURI = "https://postman-echo.com";
         String requestBody = "Added text";
