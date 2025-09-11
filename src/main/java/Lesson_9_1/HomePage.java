@@ -1,3 +1,5 @@
+package Lesson_9_1;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,7 +30,7 @@ public class HomePage {
     WebElement mailInput;
 
     @FindBy(xpath = ("//iframe[@src = 'https://checkout.bepaid.by/widget_v2/index.html']"))
-    WebElement frameallowpaymentrequest;
+    public WebElement frameallowpaymentrequest;
 
     public HomePage(WebDriver driver){
         this.driver = driver;
