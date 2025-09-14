@@ -17,6 +17,7 @@ public class PayPage {
         this.driver =  driver;
         PageFactory.initElements(driver,this);
     }
+
     public List<WebElement> getLogos() {
         return logos;
     }

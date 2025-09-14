@@ -68,7 +68,6 @@ public class Mts_test {
         Assert.assertEquals(continueButtonText,"Продолжить");
         Assert.assertTrue(homePage.getContinueButton().isDisplayed());
     }
-
     @Test(priority = 5)
     private void testContinueButtonClick(){
         homePage.interPhone("297777777");
