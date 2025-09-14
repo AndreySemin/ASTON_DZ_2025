@@ -1,4 +1,4 @@
-package Lesson_10;
+package Lesson_10_2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

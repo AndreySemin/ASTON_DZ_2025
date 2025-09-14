@@ -1,5 +1,6 @@
-package Lesson_10;
+package Lesson_10_2;
 
+import jdk.jfr.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,6 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
+
 
 public class MtsTest_2 {
     private WebDriver driver;
@@ -31,6 +33,9 @@ public class MtsTest_2 {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
+    @Description("Заполнение полей в форме 'Онлайн пополнение без комиссии ")
+
+
     @Test(priority = 1)
     private void testInter() {
         action.moveToElement(driver.findElement(By.className("select__now"))).build().perform();
@@ -40,6 +45,8 @@ public class MtsTest_2 {
         PayPage.continueButtonClick();
 
     }
+    @Description("Проверка полей на соответствие")
+
 
     @Test(priority = 2)
     private void checkSumm() throws InterruptedException {
